@@ -5,6 +5,6 @@ connectDB();
 
 
 app.listen(process.env.PORT, () => {
-    console.log("Server is working on this port => http://localhost:4000");
+    console.log(`Server is working on this port => http://localhost:${process.env.PORT}  in ${process.env.NODE_ENV} node`);
   });
   
